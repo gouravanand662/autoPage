@@ -37,7 +37,7 @@ type Business = {
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  // const data = useData();
+  const data = useData();
 
   return (
     <nav className="fixed w-full z-50 bg-[#FAF9F6]/90 backdrop-blur-md border-b border-[#5A7D7C]/10">
@@ -46,7 +46,7 @@ const Navbar = () => {
           <div className="flex-shrink-0 flex items-center gap-2">
             <Flower className="w-8 h-8 text-[#5A7D7C]" />
             <span className="font-serif text-3xl font-bold text-[#5A7D7C]">
-              YoGuys
+              YoGuys{data.name}
             </span>
           </div>
           <div className="hidden md:flex space-x-8 items-center">
