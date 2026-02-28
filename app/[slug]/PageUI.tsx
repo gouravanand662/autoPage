@@ -37,7 +37,7 @@ type Business = {
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const data = useData();
+  // const data = useData();
 
   return (
     <nav className="fixed w-full z-50 bg-[#FAF9F6]/90 backdrop-blur-md border-b border-[#5A7D7C]/10">
