@@ -1,16 +1,9 @@
-"use client";
-
 import { createContext, useContext } from "react";
 
-// export const DataContext = createContext<any>(null);
-type Business = {
-  slug: string;
-  name: string;
-  city: string;
-  phone: string;
-  description: string;
+export const DataContext = createContext<any>(null);
+
+export const useData = () => {
+  const context = useContext(DataContext);
+  if (!context) throw new Error("useData must be used inside provider");
+  return context;
 };
-
-export const DataContext = createContext<Business | null>(null);
-
-export const useData = () => useContext(DataContext);
