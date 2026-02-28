@@ -812,7 +812,7 @@ const Testimonials = () => {
                   : "col-span-1"
               }`}
             >
-              <div className="absolute -top-4 md:-top-6 left-4 md:left-8 bg-[#5A7D7C] text-white w-8 h-8 md:w-12 md:h-12 flex items-center justify-center rounded-full text-lg md:text-2xl font-serif">{"""}
+              <div className="absolute -top-4 md:-top-6 left-4 md:left-8 bg-[#5A7D7C] text-white w-8 h-8 md:w-12 md:h-12 flex items-center justify-center rounded-full text-lg md:text-2xl font-serif">
               </div>
               <p className="text-gray-600 mb-4 md:mb-6 italic leading-relaxed pt-2 md:pt-4 text-sm md:text-base">
                 "{testimonial.quote}"
