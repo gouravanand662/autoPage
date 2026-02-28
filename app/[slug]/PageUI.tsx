@@ -2,11 +2,11 @@
 
 import { DataContext } from "../context/DataContext";
 import { useData } from "../context/DataContext";
-import { supabase } from "../lib/supabase";
-import { businesses } from "../lib/data";
+// import { supabase } from "../lib/supabase";
+// import { businesses } from "../lib/data";
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { createClient } from "@supabase/supabase-js";
+// import { createClient } from "@supabase/supabase-js";
 import {
   Menu,
   X,
