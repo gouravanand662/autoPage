@@ -22,22 +22,16 @@ export default async function Page({
     .eq("slug", slug)
     .limit(1);
 
-  console.log("SLUG:", slug);
-  console.log("DATA:", data);
-  console.log("ERROR:", error);
-
-  // ❌ if error
   if (error) {
-    return <h1>Error loading data</h1>;
+    return <h1>Error</h1>;
   }
 
-  // ❌ if no data
   if (!data || data.length === 0) {
     return <h1>Not found</h1>;
   }
 
-  // ✅ Now safe
-  const business = data[0] as Business;
+  // 🔥 IMPORTANT LINE
+  const business: Business = data[0];
 
   return <PageUI data={business} />;
 }
