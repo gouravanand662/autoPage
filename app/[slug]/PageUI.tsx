@@ -174,7 +174,7 @@ const Hero = () => {
             className="relative z-20 p-8 lg:p-16 mt-auto lg:mt-0 lg:col-span-1"
           >
             <h1 className="text-4xl lg:text-7xl font-serif text-gray-900 leading-[1.1] mb-6">
-              You're Not Alone <br />
+              {"You're Not Alone"} <br />
               <span className="text-[#E07A5F]">Healing</span> Starts Here
             </h1>
             <p className="text-lg text-gray-600 mb-8 max-w-md leading-relaxed">
@@ -419,16 +419,16 @@ const About = () => {
               </span>
             </h2>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              At YoGuys, we believe that yoga is more than just physical
+              {"At YoGuys, we believe that yoga is more than just physical
               exercise; it's a journey of self-discovery and inner peace. Our
               studio provides a welcoming, inclusive environment where
               practitioners of all levels can explore the transformative power
-              of yoga.
+              of yoga."}
             </p>
             <p className="text-gray-600 mb-8 leading-relaxed">
-              Whether you're looking to build strength, increase flexibility, or
+              {"Whether you're looking to build strength, increase flexibility, or
               simply find a moment of calm in your busy day, our experienced
-              instructors are here to guide you every step of the way.
+              instructors are here to guide you every step of the way."}
             </p>
             <ul className="space-y-4 mb-8">
               {[
@@ -819,7 +819,7 @@ const Testimonials = () => {
               }`}
             >
               <div className="absolute -top-4 md:-top-6 left-4 md:left-8 bg-[#5A7D7C] text-white w-8 h-8 md:w-12 md:h-12 flex items-center justify-center rounded-full text-lg md:text-2xl font-serif">
-                "
+                {"""}
               </div>
               <p className="text-gray-600 mb-4 md:mb-6 italic leading-relaxed pt-2 md:pt-4 text-sm md:text-base">
                 "{testimonial.quote}"
