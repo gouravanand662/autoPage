@@ -419,8 +419,7 @@ const About = () => {
               </span>
             </h2>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              {"At YoGuys, we believe that yoga is more than just physical
-              exercise; it's a journey of self-discovery and inner peace. Our
+              {"At YoGuys, we believe that yoga is more than just physical exercise; it's a journey of self-discovery and inner peace. Our
               studio provides a welcoming, inclusive environment where
               practitioners of all levels can explore the transformative power
               of yoga."}
