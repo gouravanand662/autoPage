@@ -1,8 +1,15 @@
-"use client";
-
 import { createContext, useContext } from "react";
 
-export const DataContext = createContext<any>(null);
+type Business = {
+  slug: string;
+  name: string;
+  address: string;
+  phone: string;
+  description?: string;
+  map?: string;
+};
+
+export const DataContext = createContext<Business | null>(null);
 
 export const useData = () => {
   const context = useContext(DataContext);
