@@ -38,6 +38,7 @@ type Business = {
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const data = useData();
+  console.log(data);
 
   return (
     <nav className="fixed w-full z-50 bg-[#FAF9F6]/90 backdrop-blur-md border-b border-[#5A7D7C]/10">
@@ -977,6 +978,8 @@ const Footer = () => {
     </footer>
   );
 };
+
+console.log(data);
 
 export default function PageUI({ data }: { data: Business }) {
   return (
