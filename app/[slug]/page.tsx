@@ -1,6 +1,14 @@
 import { supabase } from "../lib/supabase";
 import PageUI from "./PageUI";
 
+type Business = {
+  slug: string;
+  name: string;
+  city: string;
+  phone: string;
+  description: string;
+};
+
 export default async function Page({
   params,
 }: {
@@ -18,9 +26,18 @@ export default async function Page({
   console.log("DATA:", data);
   console.log("ERROR:", error);
 
-  if (!data || data.length === 0) {
-    return <h1>Not foundddd</h1>;
+  // ❌ if error
+  if (error) {
+    return <h1>Error loading data</h1>;
   }
 
-  return <PageUI data={data[0]} />;
+  // ❌ if no data
+  if (!data || data.length === 0) {
+    return <h1>Not found</h1>;
+  }
+
+  // ✅ Now safe
+  const business = data[0] as Business;
+
+  return <PageUI data={business} />;
 }
