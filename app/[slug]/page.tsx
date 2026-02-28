@@ -14,9 +14,9 @@ type Business = {
 export default async function Page({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 }) {
-  const { slug } = await params;
+  const slug = params.slug;
 
   const { data, error } = await supabase
     .from("businesses")
