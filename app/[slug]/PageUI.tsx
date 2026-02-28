@@ -419,15 +419,10 @@ const About = () => {
               </span>
             </h2>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              {"At YoGuys, we believe that yoga is more than just physical exercise; it's a journey of self-discovery and inner peace. Our
-              studio provides a welcoming, inclusive environment where
-              practitioners of all levels can explore the transformative power
-              of yoga."}
+              {"At YoGuys, we believe that yoga is more than just physical exercise; it's a journey of self-discovery and inner peace. Our studio provides a welcoming, inclusive environment where practitioners of all levels can explore the transformative power of yoga."}
             </p>
             <p className="text-gray-600 mb-8 leading-relaxed">
-              {"Whether you're looking to build strength, increase flexibility, or
-              simply find a moment of calm in your busy day, our experienced
-              instructors are here to guide you every step of the way."}
+              {"Whether you're looking to build strength, increase flexibility, or simply find a moment of calm in your busy day, our experienced instructors are here to guide you every step of the way."}
             </p>
             <ul className="space-y-4 mb-8">
               {[
