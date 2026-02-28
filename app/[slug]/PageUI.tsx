@@ -815,7 +815,7 @@ const Testimonials = () => {
               <div className="absolute -top-4 md:-top-6 left-4 md:left-8 bg-[#5A7D7C] text-white w-8 h-8 md:w-12 md:h-12 flex items-center justify-center rounded-full text-lg md:text-2xl font-serif">
               </div>
               <p className="text-gray-600 mb-4 md:mb-6 italic leading-relaxed pt-2 md:pt-4 text-sm md:text-base">
-                "{testimonial.quote}"
+                {""{testimonial.quote}""}
               </p>
               <div className="flex items-center">
                 <img
@@ -829,7 +829,7 @@ const Testimonials = () => {
                     {testimonial.name}
                   </h4>
                   <p className="text-xs md:text-sm text-[#E07A5F]">
-                    {testimonial.role}
+                    {"{testimonial.role}"}
                   </p>
                 </div>
               </div>
@@ -854,8 +854,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-gray-400 mb-6">
-              A sanctuary for your mind, body, and soul. Join our community and
-              transform your life through yoga.
+              {"A sanctuary for your mind, body, and soul. Join our community and transform your life through yoga."}
             </p>
             <div className="flex space-x-4">
               <a
