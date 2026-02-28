@@ -38,7 +38,6 @@ type Business = {
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const data = useData();
-  console.log(data);
 
   return (
     <nav className="fixed w-full z-50 bg-[#FAF9F6]/90 backdrop-blur-md border-b border-[#5A7D7C]/10">
@@ -979,9 +978,9 @@ const Footer = () => {
   );
 };
 
-console.log(data);
 
 export default function PageUI({ data }: { data: Business }) {
+  console.log(data);
   return (
     <div className="min-h-screen bg-[#FAF9F6] selection:bg-[#5A7D7C] selection:text-white">
       <DataContext.Provider value={data}>
