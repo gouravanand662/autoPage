@@ -544,6 +544,7 @@ const Classes = () => {
 };
 
 const Location = () => {
+  const data = useData();
   return (
     <section id="contact" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -575,6 +576,7 @@ const Location = () => {
                     123 Zen Avenue, Wellness District
                     <br />
                     New York, NY 10001
+                    {data.address}
                   </p>
                 </div>
               </div>
