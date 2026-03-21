@@ -576,7 +576,7 @@ const Location = () => {
                     123 Zen Avenue, Wellness District
                     <br />
                     New York, NY 10001
-                    {data.address}
+                    /* {data.address} */
                   </p>
                 </div>
               </div>
