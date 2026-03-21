@@ -459,7 +459,7 @@ const Classes = () => {
     {
       title: "Vinyasa Flow",
       image:
-        "https://images.unsplash.com/yoga-in-nature-gm486137285-38301206?q=80&w=800&auto=format&fit=crop",
+        "https://p.grokimg.net/54/1c/picture_541c8b55a1b5655d704cf16a_14",
       level: "All Levels",
       duration: "60 Min",
     },
