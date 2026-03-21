@@ -229,7 +229,7 @@ const Experts = () => {
       name: "Sarah Jenkins",
       role: "Senior Yoga Teacher",
       image:
-        "https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=800&auto=format&fit=crop",
+        "https://devanadiyoga.com/wp-content/uploads/2018/07/300-hour-Yoga-Teacher-Training-640x450.jpg",
     },
     {
       name: "David Chen",
@@ -247,7 +247,7 @@ const Experts = () => {
       name: "Michael Chang",
       role: "Hatha Instructor",
       image:
-        "https://images.unsplash.com/photo-1566577739112-5180d4bf9390?q=80&w=800&auto=format&fit=crop",
+        "https://t3.ftcdn.net/jpg/01/29/57/42/360_F_129574257_dRatFS0QowZBK3bxCA1dqG7ZQeHvYSV2.jpg",
     },
   ];
 
@@ -473,7 +473,7 @@ const Classes = () => {
     {
       title: "Ashtanga Series",
       image:
-        "https://images.unsplash.com/photo-1593810450967-f9c427ce3722?q=80&w=800&auto=format&fit=crop",
+        "https://bharatha.org/wp-content/uploads/2025/07/IMG_5834-1024x659.jpeg",
       level: "Advanced",
       duration: "90 Min",
     },
