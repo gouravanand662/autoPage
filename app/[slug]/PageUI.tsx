@@ -46,7 +46,7 @@ const Navbar = () => {
           <div className="flex-shrink-0 flex items-center gap-2">
             <Flower className="w-8 h-8 text-[#5A7D7C]" />
             <span className="font-serif text-3xl font-bold text-[#5A7D7C]">
-              YoGuys{data.name}
+              {data.name}
               {/* <div className="bg-red-500 text-white p-10">
                 TEST TAILWIND
               </div> */}
